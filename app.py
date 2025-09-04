@@ -8,7 +8,7 @@ import tempfile
 import os
 
 # Gemini API setup
-API_KEY = "import streamlit as st
+API_KEY = "AIzaSyBpUdapLDCBItYx_OGbaRFPqyY6vHz_KVM"
 import google.generativeai as genai
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -172,3 +172,4 @@ if pdf_file is not None:
 
     # Clean up temporary file
     os.remove(temp_pdf_path)
+
